@@ -130,7 +130,7 @@ Same procedure as in standalone game is performed, but additionally after GameMo
 
 ## Networking gone crazy
 
-UE supports split-screen (better to say, multi-LocalController) game acting as either listen server or networked client. When acting as client, it tells server "hey, there are 2-3-4-N of us here, please give us enough PlayerControllers". It is client responsibility to determine how to match PlayerControllers to LocalPlayers. Such setup allows to reduce network traffic because server replicates world actors only once regardless of the number of LocalPlayers viewing the world from one client.
+UE supports split-screen (better to say, multi-LocalPlayer) game acting as either listen server or networked client. When acting as client, it tells server "hey, there are 2-3-4-N of us here, please give us enough PlayerControllers". It is client responsibility to determine how to match PlayerControllers to LocalPlayers. Such setup allows to reduce network traffic because server replicates world actors only once regardless of the number of LocalPlayers viewing the world from one client.
 
 ## How PIE works
 
