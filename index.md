@@ -1,8 +1,7 @@
 ---
+layout: default
 title: The Deeper Unreal Engine 4 Gameplay Framework Overview
 ---
-
-# The Deeper Unreal Engine 4 Gameplay Framework Overview
 
 This file describes core Unreal Engine 4 game framework components and their relationships.
 
